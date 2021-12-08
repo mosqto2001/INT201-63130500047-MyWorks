@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top:3%;
+    text-align: center;
+}
+
+ul{
+    display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  gap: 10px 10px; 
+}
+
+.char-list{
+    margin: auto;
+    width: 10%;
+}
+
+#input-word {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+

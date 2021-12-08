@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn API</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>ดิ๊กชั่นหน๊าหรี้</h1>
+    <form class="form-inline">
+      <div class="input-group mb-3 input-group-prepend" id="input-word">
+        <span class="input-group-text">Enter a word:</span>
+        <input type="text" class="word-input form-control" />
+      </div>
+      <button class="search btn btn-primary mb-2">Enter</button>
+    </form>
+    <div>
+      <span class="word"></span>
+    </div>
+
+    <div class="char-list"></div>
+    <button class="random btn btn-primary mb-2">Random</button>
+    <button class="microphone">Say</button>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script2.js"></script>
+    <script src="say.js"></script>
+  </body>
+</html>
